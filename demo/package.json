@@ -1,7 +1,7 @@
 {
   "name": "js-debounce-throttle-demo",
   "version": "1.0.0",
-  "description": "Demo of js-debounce-throttle npm package --- https://github.com/jemeshjoseph/js-debounce-throttle",
+  "description": "Demo of js-debounce-throttle npm package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jemeshjoseph/js-debounce-throttle.git"
+    "url": "git://github.com/jemeshjoseph/js-debounce-throttle.git"
   },
   "keywords": [
     "js-debounce-throttle",
