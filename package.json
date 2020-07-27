@@ -1,7 +1,7 @@
 {
   "name": "js-debounce-throttle",
   "version": "1.0.0",
-  "description": "Debounce and throttle functions to enhance the website performance by limiting/reducing the number of times the handler function is being executed due to user events. User events can be engagements like clicks, scroll, resize, text box inputs, mouse events etc.",
+  "description": "Debounce and throttle functions to enhance the website performance by limiting or reducing the number of times the handler function is being executed due to user events. User events can be engagements like clicks, scroll, resize, text box inputs, mouse events etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
