@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jemeshjoseph/js-debounce-throttle.git"
+    "url": "git://github.com/jemeshjoseph/js-debounce-throttle.git"
   },
   "keywords": [
     "debounce",
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/jemeshjoseph/js-debounce-throttle/issues"
   },
-  "homepage": "https://github.com/jemeshjoseph/js-debounce-throttle#readme"
+  "homepage": "https://github.com/jemeshjoseph/js-debounce-throttle#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
