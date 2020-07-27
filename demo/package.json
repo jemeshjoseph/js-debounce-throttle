@@ -1,0 +1,52 @@
+{
+  "name": "js-debounce-throttle-demo",
+  "version": "1.0.0",
+  "description": "Demo of js-debounce-throttle npm package --- https://github.com/jemeshjoseph/js-debounce-throttle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack --config webpack.dev.js --watch",
+    "start": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemeshjoseph/js-debounce-throttle.git"
+  },
+  "keywords": [
+    "js-debounce-throttle",
+    "debounce",
+    "throttle",
+    "npm",
+    "package",
+    "demo",
+    "sample",
+    "code",
+    "JavaScript",
+    "node.js",
+    "performance",
+    "improvement"
+  ],
+  "author": "Jemesh Joseph <jemesh.joseph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemeshjoseph/js-debounce-throttle/issues"
+  },
+  "homepage": "https://github.com/jemeshjoseph/js-debounce-throttle#readme",
+  "dependencies": {
+    "js-debounce-throttle": "file:../js-debounce-throttle"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.0.0",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "xml-loader": "^1.2.1"
+  }
+}
