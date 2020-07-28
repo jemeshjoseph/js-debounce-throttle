@@ -84,3 +84,11 @@ Parameter | Type | Description
 
 ## Browser Support
 All modern browsers and IE10+.
+
+## License
+MIT
+
+
+
+
+
