@@ -1,13 +1,13 @@
 # js-debounce-throttle
 Debounce and throttle functions to enhance the website performance by limiting/reducing the number of times the handler function is being executed due to user events. User events can be engagements like clicks, scroll, resize, text box inputs, mouse events etc.
 
-# Install
+## Install
 ```
 npm install js-debounce-throttle --save
 ```
-# Usage
+## Usage
 
-#### Debouncing
+### Debouncing
 ```javascript
 
 // Demo: Debouncing
@@ -37,7 +37,7 @@ searchTextBoxInput.addEventListener("keyup", event => {
 
 ```
 
-#### Throttling
+### Throttling
 ```javascript
 
 // Demo: Throttling
@@ -66,3 +66,21 @@ searchTextBoxInput.addEventListener("keyup", event => {
 });
 
 ```
+
+## API
+### debounce(callback, delay): Function
+`debounce` function itself returns a `Function` which is the debounce execution of the callback function.
+> Debouncing can be applied in implementing suggestive text, where we wait for the user to stop typing for a few seconds before suggesting the text. thus, on every keystroke, we wait for some seconds before giving out suggestions.
+Another application of debouncing is in content-loading webpages like Facebook and Twitter where the user keeps on scrolling. In these scenarios, if the scroll event is fired too frequently, there might be a performance impact, as it contains lots of videos and images. Thus the scroll event must make use of debouncing.
+
+### throttle(callback, delay): Function
+`throttle` function itself returns a `Function` which is the throttle execution of the callback function.
+> It prevent frequent calling of the function. It makes the website faster and controls the rate at which a particular function is called.
+
+Parameter | Type | Description
+------------ | ------------- | -------------
+**`callback`** | `Function` | Function to be executed after the delay. The `this` context and all arguments are passed through, as-is, to `callback` when the throttled/debounced function is executed.
+**`delay`** | `Number` | Time delay expressed in milliseconds to debounce/throttle the function execution.
+
+## Browser Support
+All modern browsers and IE10+.
